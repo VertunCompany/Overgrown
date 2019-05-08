@@ -1,0 +1,98 @@
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+.img-fluid {
+    margin-top: 25%;
+}
+
+/* -----------------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* -----------------------------------*/
+
+.main_menu nav {
+    background-color: rgb(80, 80, 80);
+}
+
+.main_menu nav div a {
+    color: white;
+}
+
+.main_menu nav div a:hover {
+    color: black;
+}
+
+.content_text {
+    margin: auto;
+    text-align: center;
+    word-break: keep-all;
+    margin-top: 12%;
+    margin-left: 25%;
+    width: 150%;
+}
+
+.content_text ul li {
+    margin-top: 10px;
+    margin-left: 40%;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.bottom_page {
+    background-color: rgb(64, 64, 64);
+    width: 100%;
+}
+
+/* mobile phones */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    body, h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5em;
+        width: 100%;
+        
+        display: -webkit-flex;
+        display: wrap;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-align-content: center;
+        align-content: center;
+        word-break: break-all;
+    }
+    
+    
+    ul, li {
+        margin-right: 20%;
+        width: 40%;
+    }
+    
+    .content_text p {
+        margin-right: 20%;
+        width: 40%;
+    }
+    
+    .img-fluid {
+        margin-top: 5%;
+        width: 40%;
+    }
+    
+    .trailer {
+        width: 80%;
+        height: 40%;
+    }
+}
+
+/* iPads (portrait and landscape) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
